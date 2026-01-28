@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="#" alt="Logo" class="logo">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>MERN Developer</p>
+                <h1>Hi, I'm <span>Aditya</span> <br>Verma from Delhi</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/profile.png" alt="profile">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a dedicated Web Developer skilled in HTML, CSS, JavaScript, and basic React. I focus on building clean, responsive, and visually appealing user interfaces. I love turning ideas into real-world web applications and constantly improving my coding and
+                        problem-solving skills.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Ui/Ux</span><br>Designing Web/App interfaces</li>
+                            <li>
+                                <span>Frontend Development</span><br> Building responsive and interactive user interfaces using HTML, CSS, JavaScript, and React
+                            </li>
+                            <li>
+                                <span>Full-Stack Development</span><br> Developing complete web applications with frontend, backend, and database integration
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>MERN Stack Intern</span><br> Worked as a MERN Stack Intern at CETPA Info Tech for 6 months, gaining hands-on experience in developing full-stack web applications using MongoDB, Express.js, React, and Node.js.
+                            </li>
+
+                            <li>
+                                <span>UI/UX Designing Trainee</span><br> Completed a 3-month UI/UX Designing training at Accenture, focusing on user-centered design principles, wireframing, and designing intuitive web and app interfaces.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>B.Tech (Computer Science)</span><br> Dr. A.P.J. Abdul Kalam Technical University (AKTU), 2025 Pass Out
+                            </li>
+
+                            <li>
+                                <span>Class XII</span><br> Scored 83% from Maharana Pratap IC, Maharajganj
+                            </li>
+
+                            <li>
+                                <span>Class X</span><br> Scored 86% from Maharana Pratap IC, Maharajganj
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>
